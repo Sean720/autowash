@@ -37,9 +37,10 @@
   },
   {
    "fieldname": "model",
-   "fieldtype": "Data",
+   "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Model",
+   "options": "Model",
    "reqd": 1
   },
   {
@@ -56,8 +57,9 @@
   },
   {
    "fieldname": "make",
-   "fieldtype": "Data",
+   "fieldtype": "Link",
    "label": "Make",
+   "options": "Vehicle Make",
    "reqd": 1
   },
   {
@@ -92,7 +94,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-02-03 13:54:56.027751",
+ "modified": "2025-02-03 23:41:43.966809",
  "modified_by": "Administrator",
  "module": "AutoWash",
  "name": "Vehicles",
